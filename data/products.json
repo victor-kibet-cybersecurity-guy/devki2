@@ -1,0 +1,66 @@
+[
+  {
+    "id": "steel-bars",
+    "name": "Steel Reinforcement Bars",
+    "company": "Devki Steel Mills Limited",
+    "category": "Steel",
+    "uses": "Reinforced concrete construction",
+    "image": "images/products/steel-bars.svg"
+  },
+  {
+    "id": "steel-tubes",
+    "name": "Steel Tubes",
+    "company": "Devki Steel Mills Limited",
+    "category": "Steel",
+    "uses": "Fabrication and structural applications",
+    "image": "images/products/steel-tubes.svg"
+  },
+  {
+    "id": "steel-wires",
+    "name": "Steel Wires",
+    "company": "Devki Steel Mills Limited",
+    "category": "Steel",
+    "uses": "Construction and industrial applications",
+    "image": "images/products/steel-wires.svg"
+  },
+  {
+    "id": "simba-cement",
+    "name": "Simba Cement",
+    "company": "National Cement Company Limited",
+    "category": "Cement",
+    "uses": "General building and construction",
+    "image": "images/products/simba-cement.svg"
+  },
+  {
+    "id": "rhino-cement",
+    "name": "Rhino Cement",
+    "company": "National Cement Company Limited",
+    "category": "Cement",
+    "uses": "Building and construction",
+    "image": "images/products/rhino-cement.svg"
+  },
+  {
+    "id": "maisha-roofing",
+    "name": "Maisha Roofing Sheets",
+    "company": "Maisha Mabati Mills Limited",
+    "category": "Roofing",
+    "uses": "Residential, commercial and institutional roofing",
+    "image": "images/products/roofing-sheets.svg"
+  },
+  {
+    "id": "fertilizers",
+    "name": "Agricultural Fertilizers",
+    "company": "Maisha Minerals & Fertilizers Limited",
+    "category": "Agriculture",
+    "uses": "Crop nutrition applications",
+    "image": "images/products/fertilizer.svg"
+  },
+  {
+    "id": "industrial-packaging",
+    "name": "Industrial Packaging",
+    "company": "Maisha Packaging Company Limited",
+    "category": "Packaging",
+    "uses": "Cement, fertilizer and industrial packaging",
+    "image": "images/products/packaging.svg"
+  }
+]

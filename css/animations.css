@@ -1,0 +1,4 @@
+
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.6}50%{transform:scale(1.14);opacity:0}}
+.reveal{opacity:0;transform:translateY(18px);transition:.6s ease}.reveal.visible{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}

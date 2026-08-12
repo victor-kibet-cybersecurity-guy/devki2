@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Ruiru",
+    "country": "Kenya",
+    "county": "Kiambu County",
+    "address": "Ruiru-Kamiti Road, Opposite Ruiru Station, Ruiru, Kenya",
+    "companies": "Devki Steel Mills Limited; Maisha Mabati Mills Limited; Group/head office activities",
+    "tags": "Kenya Steel Roofing Head Office",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ruiru+Kamiti+Road+Opposite+Ruiru+Station+Kenya"
+  },
+  {
+    "name": "Lukenya",
+    "country": "Kenya",
+    "county": "Machakos County",
+    "address": "Off Mombasa Road, Opposite Lukenya Hill, Kenya",
+    "companies": "National Cement Company Limited; Maisha Mabati Mills Limited; Maisha Packaging Company Limited",
+    "tags": "Kenya Cement Roofing Packaging",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lukenya+Hill+Mombasa+Road+Kenya"
+  },
+  {
+    "name": "Athi River",
+    "country": "Kenya",
+    "county": "Machakos County",
+    "address": "Off Mombasa Road, next to KMC / Simba Road, Athi River, Kenya",
+    "companies": "Devki Steel Mills Limited; National Cement Company Limited; Maisha Minerals & Fertilizers Limited",
+    "tags": "Kenya Steel Cement Fertilizer",
+    "map": "https://www.google.com/maps/search/?api=1&query=Devki+Athi+River+Kenya"
+  },
+  {
+    "name": "Emali / Merueshi",
+    "country": "Kenya",
+    "county": "Kajiado region",
+    "address": "Merueshi, along Emali-Oloitoktok Road, Kenya",
+    "companies": "National Cement Company Limited",
+    "tags": "Kenya Cement",
+    "map": "https://www.google.com/maps/search/?api=1&query=Merueshi+Emali+Oloitoktok+Road+Kenya"
+  },
+  {
+    "name": "Kaloleni",
+    "country": "Kenya",
+    "county": "Kilifi County",
+    "address": "Off Mazeras-Kaloleni Road, Kaloleni, Kenya",
+    "companies": "National Cement Company Limited",
+    "tags": "Kenya Cement Coast",
+    "map": "https://www.google.com/maps/search/?api=1&query=National+Cement+Kaloleni+Kenya"
+  },
+  {
+    "name": "Miritini",
+    "country": "Kenya",
+    "county": "Mombasa County",
+    "address": "Off Mombasa-Miritini Road, Miritini, Kenya",
+    "companies": "Devki Steel Mills Limited",
+    "tags": "Kenya Steel Mombasa",
+    "map": "https://www.google.com/maps/search/?api=1&query=Devki+Steel+Miritini+Mombasa+Kenya"
+  },
+  {
+    "name": "Nakuru-Salgaa",
+    "country": "Kenya",
+    "county": "Nakuru County",
+    "address": "Salgaa-Rongai, along Nakuru-Eldoret Road, Kenya",
+    "companies": "National Cement Company Limited",
+    "tags": "Kenya Cement Nakuru",
+    "map": "https://www.google.com/maps/search/?api=1&query=National+Cement+Salgaa+Nakuru+Kenya"
+  },
+  {
+    "name": "Samburu / Kwale",
+    "country": "Kenya",
+    "county": "Kwale region",
+    "address": "South Samburu, along Nairobi-Mombasa Road, Kenya",
+    "companies": "Devki Steel Mills Limited",
+    "tags": "Kenya Steel Kwale",
+    "map": "https://www.google.com/maps/search/?api=1&query=Devki+Steel+South+Samburu+Kwale+Kenya"
+  },
+  {
+    "name": "Tororo",
+    "country": "Uganda",
+    "county": "Tororo",
+    "address": "Plot No. 217, Block No. 6, Tororo-Mbale Road, Tororo, Uganda",
+    "companies": "National Cement Company Uganda Ltd",
+    "tags": "Uganda Cement",
+    "map": "https://www.google.com/maps/search/?api=1&query=Plot+217+Block+6+Tororo+Mbale+Road+Uganda"
+  },
+  {
+    "name": "Kampala",
+    "country": "Uganda",
+    "county": "Kampala",
+    "address": "Plot No. 96, 5th Street, Madhvani Business Park, Industrial Area, Kampala, Uganda",
+    "companies": "National Cement Company Uganda Ltd",
+    "tags": "Uganda Cement",
+    "map": "https://www.google.com/maps/search/?api=1&query=Madhvani+Business+Park+5th+Street+Kampala+Uganda"
+  }
+]

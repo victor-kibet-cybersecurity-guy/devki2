@@ -1,0 +1,15 @@
+{
+  "name": "devki-group-official-distributor",
+  "version": "1.0.0",
+  "description": "DEVKI GROUP OF COMPANIES Official Distributor Platform",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node -c server.mjs",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

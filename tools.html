@@ -1,0 +1,123 @@
+<!doctype html><html lang="en-KE"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Resource Hints: Preconnect, DNS-Prefetch & Preload -->
+<link rel="dns-prefetch" href="https://wa.me">
+<link rel="preconnect" href="https://wa.me" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://www.google.com">
+<link rel="dns-prefetch" href="https://schema.org">
+<link rel="preload" href="css/style.css" as="style">
+<link rel="preload" href="js/main.js" as="script">
+<link rel="prefetch" href="js/search.js" as="script">
+<title>Construction Calculators Kenya | Devki Official Distributor</title>
+<meta name="description" content="Use roofing, steel weight, cement quantity and building material estimators for Kenya, then request a quotation on WhatsApp.">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/animations.css">
+
+<script id="jsonld-breadcrumbs" type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://example.com/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculators",
+      "item": "https://example.com/tools.html"
+    }
+  ]
+}
+</script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar"><div class="container"><span class="badge">Official Distributor</span><span>Customer enquiries: <a href="tel:+254735361747">+254 735 361 747</a></span></div></div>
+<header class="site-header"><div class="container nav">
+<a class="brand" href="index.html">DEVKI GROUP OF COMPANIES<small>OFFICIAL DISTRIBUTOR</small></a>
+<nav class="navlinks" id="siteNav" aria-label="Primary">
+<a href="index.html">Home</a><a href="companies.html">Companies</a><a href="products.html">Products</a><a href="locations.html">Locations</a><a href="tools.html" class="active">Calculators</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+</nav>
+<div class="nav-actions"><a class="btn btn-primary" href="https://wa.me/254735361747" target="_blank" rel="noopener noreferrer">WhatsApp</a><button class="icon-btn menu-btn" aria-controls="siteNav" aria-expanded="false" aria-label="Open menu">☰</button></div>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> / Calculators</div><h1>Construction Calculators</h1><p>Estimate roofing sheets, steel weight, cement quantity and basic building materials. Use estimates for planning, then confirm quantities with your engineer or contractor before purchase.</p></div></section>
+
+<section class="section"><div class="container"><div class="grid grid-2">
+<div class="card card-body">
+<span class="eyebrow">Roofing</span><h2>Roof Sheet Estimator</h2>
+<div class="form">
+<div class="form-grid"><div class="field"><label for="roofLength">Roof length (m)</label><input id="roofLength" type="number" min="0" step="0.01"></div><div class="field"><label for="roofSlope">Slope length (m)</label><input id="roofSlope" type="number" min="0" step="0.01"></div></div>
+<div class="field"><label for="sheetCover">Effective sheet cover width (m)</label><input id="sheetCover" type="number" value="0.762" min="0.1" step="0.001"></div>
+<button class="btn btn-dark" data-calc="roof">Calculate</button><div class="notice" id="roofResult">Enter measurements to estimate the number of sheets.</div>
+</div></div>
+
+<div class="card card-body">
+<span class="eyebrow">Steel</span><h2>Steel Weight Calculator</h2>
+<div class="form"><div class="form-grid"><div class="field"><label for="barDia">Bar diameter (mm)</label><select id="barDia"><option>8</option><option>10</option><option selected>12</option><option>16</option><option>20</option><option>25</option><option>32</option></select></div><div class="field"><label for="barLength">Length per bar (m)</label><input id="barLength" type="number" value="12" min="0" step="0.1"></div></div><div class="field"><label for="barQty">Quantity</label><input id="barQty" type="number" value="1" min="1" step="1"></div><button class="btn btn-dark" data-calc="steel">Calculate</button><div class="notice" id="steelResult">Formula: d²/162 kg per metre.</div></div>
+</div>
+
+<div class="card card-body">
+<span class="eyebrow">Cement</span><h2>Cement Quantity Calculator</h2>
+<div class="form"><div class="form-grid"><div class="field"><label for="concreteLength">Length (m)</label><input id="concreteLength" type="number" min="0" step="0.01"></div><div class="field"><label for="concreteWidth">Width (m)</label><input id="concreteWidth" type="number" min="0" step="0.01"></div><div class="field"><label for="concreteDepth">Depth (m)</label><input id="concreteDepth" type="number" min="0" step="0.01"></div><div class="field"><label for="bagsPerM3">Estimated 50kg bags per m³</label><input id="bagsPerM3" type="number" value="7" min="1" step="0.1"></div></div><button class="btn btn-dark" data-calc="cement">Calculate</button><div class="notice" id="cementResult">This planning estimate depends on the mix design.</div></div>
+</div>
+
+<div class="card card-body">
+<span class="eyebrow">Materials</span><h2>Building Materials Estimator</h2>
+<div class="form"><div class="form-grid"><div class="field"><label for="wallLength">Total wall length (m)</label><input id="wallLength" type="number" min="0" step="0.01"></div><div class="field"><label for="wallHeight">Wall height (m)</label><input id="wallHeight" type="number" min="0" step="0.01"></div></div><div class="field"><label for="blockRate">Blocks per m²</label><input id="blockRate" type="number" value="12.5" min="1" step="0.1"></div><button class="btn btn-dark" data-calc="materials">Calculate</button><div class="notice" id="materialsResult">Estimate wall area and block count.</div></div>
+</div>
+</div>
+
+<div class="cta" style="margin-top:35px"><h2>Need a quotation from these estimates?</h2><p>Send the calculated quantities to our distributor sales desk.</p><a class="btn btn-primary" href="https://wa.me/254735361747" target="_blank" rel="noopener noreferrer">Request quotation on WhatsApp</a></div>
+</div></section>
+
+<section class="section section-soft"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Frequently Asked Questions</span><h2>Frequently Asked Questions</h2></div></div>
+<div class="faq">
+<div class="faq-item"><button class="faq-q" aria-expanded="false"><span>How accurate are the building material estimators on this platform?</span><span>+</span></button><div class="faq-a"><p>Our calculators utilize standard civil engineering formulas and Kenya construction benchmark conversion factors (e.g. BS 4449 rebar weights and mix proportions).</p></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false"><span>Can I convert calculator results directly into an official WhatsApp price quotation?</span><span>+</span></button><div class="faq-a"><p>Yes! Every calculator features a direct WhatsApp submission button that transfers your estimated quantities straight to our distributor desk for pricing.</p></div></div>
+<div class="faq-item"><button class="faq-q" aria-expanded="false"><span>Is delivery included when requesting a price quote after using the calculator?</span><span>+</span></button><div class="faq-a"><p>Our distributor team will provide itemized quotes including direct factory delivery options to your specific site location in Kenya.</p></div></div>
+</div></div></section>
+
+</main>
+<footer class="footer"><div class="container"><div class="footer-grid"><div><h3>DEVKI GROUP OF COMPANIES</h3><p>Official distributor customer enquiry platform.</p></div><div><h4>Explore</h4><a href="products.html">Products</a><a href="locations.html">Locations</a><a href="tools.html">Calculators</a></div><div><h4>Support</h4><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div><div><h4>Enquiries</h4><a href="tel:+254735361747">+254 735 361 747</a><a href="https://wa.me/254735361747">WhatsApp</a></div></div><div class="disclosure">Official Distributor of genuine DEVKI GROUP OF COMPANIES products. This distributor website supports product enquiries and does not represent itself as the corporate headquarters.</div></div></footer>
+<a class="wa-float" href="https://wa.me/254735361747" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">WA</a>
+<script src="js/main.js" defer></script><script src="js/calculators.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How accurate are the building material estimators on this platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our calculators utilize standard civil engineering formulas and Kenya construction benchmark conversion factors (e.g. BS 4449 rebar weights and mix proportions)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I convert calculator results directly into an official WhatsApp price quotation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Every calculator features a direct WhatsApp submission button that transfers your estimated quantities straight to our distributor desk for pricing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is delivery included when requesting a price quote after using the calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our distributor team will provide itemized quotes including direct factory delivery options to your specific site location in Kenya."
+      }
+    }
+  ]
+}
+</script>
+</body></html>

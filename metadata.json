@@ -1,0 +1,6 @@
+{
+  "name": "Devki Group Official Distributor",
+  "description": "Official distributor customer enquiry platform for Devki Group products including steel, cement, roofing, and agricultural products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

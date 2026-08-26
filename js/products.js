@@ -32,7 +32,7 @@ function updateProductListJsonLd(list) {
       "item": {
         "@type": "Product",
         "name": p.name,
-        "image": `https://example.com/${p.image}`,
+        "image": `https://victor-kibet-cybersecurity-guy.github.io/devki2/${p.image}`,
         "description": `${p.name} manufactured by ${p.company} for ${p.uses}.`,
         "sku": p.sku,
         "mpn": p.mpn,

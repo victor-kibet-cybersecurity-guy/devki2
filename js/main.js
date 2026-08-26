@@ -562,6 +562,3 @@ const cfb=document.getElementById("countyFindBtn");cfb?.addEventListener("click"
     init();
   }
 })();
-    init();
-  }
-})();

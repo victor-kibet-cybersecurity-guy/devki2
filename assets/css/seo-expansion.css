@@ -1,12 +1,12 @@
 
 :root{
   --bg:#f6f8fb;--surface:#fff;--text:#172033;--muted:#667085;--line:#e4e7ec;
-  --brand:#0b5d3b;--brand2:#083d29;--accent:#f0b429;--shadow:0 12px 30px rgba(16,24,40,.08);
+  --brand:#d91e2b;--brand2:#0d1720;--accent:#f0b429;--shadow:0 12px 30px rgba(16,24,40,.08);
   --radius:18px;--max:1180px
 }
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
 a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%;height:auto}
-.wrap{width:min(calc(100% - 32px),var(--max));margin:auto}.top{background:#071d15;color:#fff;font-size:.9rem;padding:8px 0}
+.wrap{width:min(calc(100% - 32px),var(--max));margin:auto}.top{background:#0d1720;color:#fff;font-size:.9rem;padding:8px 0}
 header{background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;backdrop-filter:blur(10px)}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:72px}.brand{font-weight:900;color:var(--text);line-height:1.05}.brand small{display:block;color:var(--brand);font-size:.67rem;letter-spacing:.08em;margin-top:5px}
 nav{display:flex;gap:15px;flex-wrap:wrap}nav a{color:#344054;font-weight:700;font-size:.94rem}.menu{display:none}
@@ -19,7 +19,7 @@ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(-
 .faq details{background:#fff;border:1px solid var(--line);border-radius:13px;padding:16px 18px;margin:10px 0}.faq summary{font-weight:800;cursor:pointer}
 .breadcrumb{font-size:.9rem;color:var(--muted);padding-top:24px}.notice{border-left:4px solid var(--accent);padding:14px 16px;background:#fff8e6;border-radius:10px}
 .calc label{font-weight:700;display:block;margin-top:10px}.calc input,.calc select{width:100%;padding:12px;border:1px solid #d0d5dd;border-radius:10px;margin-top:6px}.result{margin-top:16px;padding:16px;border-radius:12px;background:#eef7f2;font-weight:800}
-footer{background:#071d15;color:#d0d5dd;padding:44px 0;margin-top:40px}footer a{color:#fff}.wa{position:fixed;right:18px;bottom:18px;background:#168a4d;color:#fff;padding:13px 16px;border-radius:999px;font-weight:900;box-shadow:var(--shadow);z-index:30}
+footer{background:#0d1720;color:#d0d5dd;padding:44px 0;margin-top:40px}footer a{color:#fff}.wa{position:fixed;right:18px;bottom:18px;background:#168a4d;color:#fff;padding:13px 16px;border-radius:999px;font-weight:900;box-shadow:var(--shadow);z-index:30}
 .related{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.related a{display:block;background:#fff;border:1px solid var(--line);padding:15px;border-radius:12px;font-weight:750}
 @media(max-width:850px){nav{display:none}.menu{display:block}.grid,.grid.two,.related{grid-template-columns:1fr}.hero{padding-top:48px}h1{font-size:2.4rem}.nav.open nav{display:flex;position:absolute;left:16px;right:16px;top:70px;background:#fff;padding:18px;border:1px solid var(--line);border-radius:14px;flex-direction:column;box-shadow:var(--shadow)}}
 
@@ -43,3 +43,5 @@ footer{background:#071d15;color:#d0d5dd;padding:44px 0;margin-top:40px}footer a{
 @media(max-width:1050px){.price-showcase{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:760px){.price-showcase{grid-template-columns:repeat(2,1fr)}.price-card{padding:16px}.price-card .visual{height:95px}}
 @media(max-width:470px){.price-showcase{grid-template-columns:1fr}}
+
+.expansion-footer{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px}.expansion-footer p{margin:.55rem 0}.product-catalog-card[hidden],tr[hidden]{display:none!important}@media(max-width:760px){.expansion-footer{grid-template-columns:1fr}}

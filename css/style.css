@@ -95,3 +95,15 @@
 
 
 
+
+
+/* Public product pricing */
+.product-price{display:flex;flex-direction:column;gap:4px;margin:14px 0 16px;padding:15px 16px;border:1px solid rgba(227,30,36,.22);border-left:4px solid var(--red);border-radius:12px;background:linear-gradient(135deg,#fff 0%,#fff7f7 100%)}
+.product-price-label{font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.product-price strong{font-size:1.45rem;line-height:1.15;color:var(--red)}
+.product-price small{font-size:.82rem;color:var(--muted)}
+.price-disclaimer{font-size:.88rem;color:var(--muted)}
+.price-summary .price-summary-value{display:block;margin:8px 0 4px;font-size:clamp(1.8rem,4vw,2.7rem);font-weight:900;color:var(--red)}
+.price-summary .actions{margin-top:16px}
+
+.product-catalog-card[hidden],#masterPriceTable tr[hidden]{display:none!important}

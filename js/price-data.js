@@ -44,17 +44,6 @@ window.DEVKI_PRICE_CATALOG=[
     "moq": "1 bar"
   },
   {
-    "id": "steel-d20",
-    "name": "Devki D20 Deformed Bar",
-    "spec": "20mm reinforcement bar • 12m length",
-    "category": "steel",
-    "categoryLabel": "Steel Rebar",
-    "unit": "bar",
-    "unitLabel": "Per Bar (12m)",
-    "price": 3200,
-    "moq": "1 bar"
-  },
-  {
     "id": "steel-d25",
     "name": "Devki D25 Deformed Bar",
     "spec": "25mm reinforcement bar • 12m length",
@@ -328,72 +317,6 @@ window.DEVKI_PRICE_CATALOG=[
     "unitLabel": "Per 50kg Bag",
     "price": 600,
     "moq": "1 bag"
-  },
-  {
-    "id": "corrugated-g30",
-    "name": "Maisha Corrugated Gauge 30",
-    "spec": "Roofing sheet • price per metre",
-    "category": "roofing",
-    "categoryLabel": "Roofing",
-    "unit": "metre",
-    "unitLabel": "Per Metre",
-    "price": 340,
-    "moq": "1 metre"
-  },
-  {
-    "id": "corrugated-g28",
-    "name": "Maisha Corrugated Gauge 28",
-    "spec": "Roofing sheet • price per metre",
-    "category": "roofing",
-    "categoryLabel": "Roofing",
-    "unit": "metre",
-    "unitLabel": "Per Metre",
-    "price": 480,
-    "moq": "1 metre"
-  },
-  {
-    "id": "box-g30",
-    "name": "Maisha Box Profile Gauge 30",
-    "spec": "Roofing sheet • price per metre",
-    "category": "roofing",
-    "categoryLabel": "Roofing",
-    "unit": "metre",
-    "unitLabel": "Per Metre",
-    "price": 400,
-    "moq": "1 metre"
-  },
-  {
-    "id": "box-g28",
-    "name": "Maisha Box Profile Gauge 28",
-    "spec": "Roofing sheet • price per metre",
-    "category": "roofing",
-    "categoryLabel": "Roofing",
-    "unit": "metre",
-    "unitLabel": "Per Metre",
-    "price": 530,
-    "moq": "1 metre"
-  },
-  {
-    "id": "versatile-g30",
-    "name": "Maisha Versatile Gauge 30",
-    "spec": "Tile-profile roofing sheet • price per metre",
-    "category": "roofing",
-    "categoryLabel": "Roofing",
-    "unit": "metre",
-    "unitLabel": "Per Metre",
-    "price": 650,
-    "moq": "1 metre"
-  },
-  {
-    "id": "versatile-g28",
-    "name": "Maisha Versatile Gauge 28",
-    "spec": "Tile-profile roofing sheet • price per metre",
-    "category": "roofing",
-    "categoryLabel": "Roofing",
-    "unit": "metre",
-    "unitLabel": "Per Metre",
-    "price": 850,
-    "moq": "1 metre"
   },
   {
     "id": "mavuno-planting-50",

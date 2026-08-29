@@ -45,3 +45,138 @@ footer{background:#0d1720;color:#d0d5dd;padding:44px 0;margin-top:40px}footer a{
 @media(max-width:470px){.price-showcase{grid-template-columns:1fr}}
 
 .expansion-footer{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px}.expansion-footer p{margin:.55rem 0}.product-catalog-card[hidden],tr[hidden]{display:none!important}@media(max-width:760px){.expansion-footer{grid-template-columns:1fr}}
+
+/* Universal responsive hardening — 2026-08-28 */
+html{
+  max-width:100%;
+  overflow-x:hidden;
+  overflow-x:clip;
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+  scroll-padding-top:82px;
+}
+body{
+  min-width:0;
+  max-width:100%;
+  overflow-x:hidden;
+  overflow-x:clip;
+}
+img,svg,video,canvas,iframe{display:block;max-width:100%;height:auto}
+h1,h2,h3,h4,p,li,a,strong,small,.brand,.breadcrumb,.notice,.chip{
+  overflow-wrap:anywhere;
+}
+.wrap,.nav,.grid,.related,.price-showcase,.price-section-title,.expansion-footer,.btns{min-width:0}
+.grid>*,.related>*,.price-showcase>*,.expansion-footer>*,.nav>*{min-width:0;max-width:100%}
+.grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.related{grid-template-columns:repeat(3,minmax(0,1fr))}
+.price-showcase{grid-template-columns:repeat(4,minmax(0,1fr))}
+.card,.price-card,.notice,.result{max-width:100%}
+.btn,.menu{
+  max-width:100%;
+  white-space:normal;
+  text-align:center;
+  overflow-wrap:anywhere;
+}
+input,select,textarea,button{max-width:100%}
+table{max-width:100%}
+
+@media (max-width:850px){
+  .nav{position:relative;min-height:68px}
+  .brand{max-width:calc(100% - 62px)}
+  .menu{display:grid;place-items:center;flex:0 0 44px;min-width:44px;min-height:44px}
+  .nav.open nav{
+    top:calc(100% + 1px);
+    max-height:calc(100dvh - 88px);
+    overflow-y:auto;
+    overscroll-behavior:contain;
+  }
+  .nav.open nav a{display:flex;align-items:center;min-height:44px;padding:8px 4px}
+}
+
+@media (max-width:760px){
+  .wrap{width:min(calc(100% - 24px),var(--max))}
+  .hero{padding:48px 0 38px}
+  h1{font-size:clamp(2rem,9vw,2.8rem)}
+  .lead{font-size:1rem}
+  section{padding:40px 0}
+  .card{padding:20px}
+  .btns{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+  .btns .btn{width:100%}
+  .price-section-title{align-items:flex-start;flex-direction:column}
+  .category-tabs{gap:7px}
+  .category-tabs a{flex:1 1 140px;text-align:center}
+  table{
+    display:block;
+    width:100%;
+    overflow-x:auto;
+    white-space:nowrap;
+    overscroll-behavior-inline:contain;
+    -webkit-overflow-scrolling:touch;
+  }
+  th,td{padding:11px 10px}
+  .expansion-footer{gap:18px}
+  footer{padding:38px 0;margin-top:24px}
+  .wa{right:12px;bottom:12px;max-width:calc(100% - 24px);font-size:.86rem}
+}
+
+@media (max-width:470px){
+  .wrap{width:min(calc(100% - 18px),var(--max))}
+  .top{font-size:.78rem;text-align:center;padding:7px 0}
+  .nav{min-height:62px;gap:8px}
+  .brand{font-size:.84rem;max-width:calc(100% - 54px)}
+  .brand small{font-size:.55rem;letter-spacing:.06em}
+  .hero{padding:40px 0 32px}
+  h1{font-size:clamp(1.8rem,10vw,2.35rem)}
+  section{padding:34px 0}
+  .card,.price-card{padding:16px;border-radius:14px}
+  .btn{width:100%;padding:12px 14px}
+  .chips{gap:6px}
+  .chip{font-size:.77rem}
+  th,td{font-size:.88rem}
+  .price-card .price{font-size:1.45rem}
+  .breadcrumb{padding-top:17px}
+}
+
+@media (max-width:340px){
+  .wrap{width:min(calc(100% - 14px),var(--max))}
+  .brand{font-size:.76rem}
+  .brand small{font-size:.49rem}
+  h1{font-size:1.72rem}
+  .card,.price-card{padding:14px}
+  .wa{font-size:.8rem;padding:11px 13px}
+}
+
+@media (hover:none){
+  .price-card:hover{transform:none}
+}
+
+/* Final secondary-template breakpoint cascade — 2026-08-28 */
+@media (max-width:1050px){
+  .price-showcase{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:850px){
+  .grid,.grid.two,.related{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:760px){
+  .price-showcase{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .expansion-footer{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:470px){
+  .price-showcase{grid-template-columns:minmax(0,1fr)}
+}
+
+/* Compact secondary-template WhatsApp control — 2026-08-28 */
+@media (max-width:470px){
+  main{padding-bottom:66px}
+  .wa{
+    width:52px;
+    height:52px;
+    padding:0;
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    font-size:0;
+  }
+  .wa::after{content:"WA";font-size:.82rem;letter-spacing:.02em}
+}

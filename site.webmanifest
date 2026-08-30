@@ -1,6 +1,6 @@
 {
-  "name": "DEVKI GROUP OF COMPANIES Official Distributor",
-  "short_name": "DEVKI Distributor",
+  "name": "Devki Distributor",
+  "short_name": "Devki",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",

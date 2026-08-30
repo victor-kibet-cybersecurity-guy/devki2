@@ -13,8 +13,8 @@
     position:fixed;
     inset:0;
     background:rgba(13,23,32,.65);
-    backdrop-filter:blur(4px);
     -webkit-backdrop-filter:blur(4px);
+    backdrop-filter:blur(4px);
     z-index:290;
     opacity:0;
     visibility:hidden;
@@ -154,16 +154,15 @@
 html{
   max-width:100%;
   overflow-x:hidden;
-  overflow-x:clip;
+  overflow-x:hidden;
   -webkit-text-size-adjust:100%;
-  text-size-adjust:100%;
   scroll-padding-top:88px;
 }
 body{
   min-width:0;
   max-width:100%;
   overflow-x:hidden;
-  overflow-x:clip;
+  overflow-x:hidden;
 }
 img,svg,video,canvas,iframe{max-width:100%;height:auto}
 iframe{border:0}
@@ -189,9 +188,7 @@ input,select,textarea,button{max-width:100%}
   width:100%;
   max-width:100%;
   overflow-x:auto;
-  overscroll-behavior-inline:contain;
-  -webkit-overflow-scrolling:touch;
-}
+  }
 table{max-width:100%}
 .card,.cta,.overview-highlight,.modal-box,.search-box{max-width:100%}
 
@@ -209,8 +206,7 @@ table{max-width:100%}
     width:100%;
     overflow-x:auto;
     white-space:nowrap;
-    -webkit-overflow-scrolling:touch;
-  }
+    }
   .overview-highlight{padding:28px}
   .quote-item{align-items:flex-start;flex-wrap:wrap}
   .quote-item-info{flex:1 1 180px}

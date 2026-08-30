@@ -7,7 +7,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
 a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%;height:auto}
 .wrap{width:min(calc(100% - 32px),var(--max));margin:auto}.top{background:#0d1720;color:#fff;font-size:.9rem;padding:8px 0}
-header{background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;backdrop-filter:blur(10px)}
+header{background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:72px}.brand{font-weight:900;color:var(--text);line-height:1.05}.brand small{display:block;color:var(--brand);font-size:.67rem;letter-spacing:.08em;margin-top:5px}
 nav{display:flex;gap:15px;flex-wrap:wrap}nav a{color:#344054;font-weight:700;font-size:.94rem}.menu{display:none}
 .hero{padding:74px 0 54px;background:linear-gradient(135deg,#eef7f2,#fff7e3)}.eyebrow{font-weight:800;color:var(--brand);text-transform:uppercase;letter-spacing:.08em;font-size:.78rem}
@@ -51,16 +51,15 @@ footer{background:#0d1720;color:#d0d5dd;padding:44px 0;margin-top:40px}footer a{
 html{
   max-width:100%;
   overflow-x:hidden;
-  overflow-x:clip;
+  overflow-x:hidden;
   -webkit-text-size-adjust:100%;
-  text-size-adjust:100%;
   scroll-padding-top:82px;
 }
 body{
   min-width:0;
   max-width:100%;
   overflow-x:hidden;
-  overflow-x:clip;
+  overflow-x:hidden;
 }
 img,svg,video,canvas,iframe{display:block;max-width:100%;height:auto}
 h1,h2,h3,h4,p,li,a,strong,small,.brand,.breadcrumb,.notice,.chip{
@@ -90,8 +89,7 @@ table{max-width:100%}
     top:calc(100% + 1px);
     max-height:calc(100dvh - 88px);
     overflow-y:auto;
-    overscroll-behavior:contain;
-  }
+    }
   .nav.open nav a{display:flex;align-items:center;min-height:44px;padding:8px 4px}
 }
 
@@ -112,9 +110,7 @@ table{max-width:100%}
     width:100%;
     overflow-x:auto;
     white-space:nowrap;
-    overscroll-behavior-inline:contain;
-    -webkit-overflow-scrolling:touch;
-  }
+    }
   th,td{padding:11px 10px}
   .expansion-footer{gap:18px}
   footer{padding:38px 0;margin-top:24px}

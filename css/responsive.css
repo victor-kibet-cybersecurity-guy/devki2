@@ -214,7 +214,6 @@ table{max-width:100%}
   .overview-highlight{padding:28px}
   .quote-item{align-items:flex-start;flex-wrap:wrap}
   .quote-item-info{flex:1 1 180px}
-  .quote-item-controls{margin-left:auto}
   .price-summary .split{gap:20px}
 }
 
@@ -245,9 +244,6 @@ table{max-width:100%}
   .search-box input{min-width:0;min-height:48px}
   .modal{padding:10px}
   .modal-content{padding:22px 16px}
-  .quote-drawer-header,.quote-drawer-body,.quote-drawer-footer{padding-left:16px;padding-right:16px}
-  .quote-toast{left:12px;right:12px;top:76px;text-align:center}
-  .quote-trigger{right:14px;bottom:88px;padding:11px 14px;font-size:.86rem}
   .table th,.table td{padding:12px 11px}
   .footer{padding-top:52px}
 }
@@ -279,37 +275,10 @@ table{max-width:100%}
   .card-body,.industries .card{padding:17px}
   .cta{padding:24px 16px}
   .btn{padding-left:14px;padding-right:14px}
-  .quote-trigger{right:10px;bottom:82px;max-width:calc(100% - 20px)}
-  .quote-drawer-header,.quote-drawer-body,.quote-drawer-footer{padding-left:12px;padding-right:12px}
-  .quote-item-controls{width:100%;justify-content:flex-end}
 }
 
 @media (hover:none){
-  .card:hover,.price-card:hover,.quote-trigger:hover{transform:none}
-}
-
-/* Compact mobile floating controls — 2026-08-28 */
-@media (max-width:520px){
-  main{padding-bottom:70px}
-  .quote-trigger{
-    right:78px;
-    bottom:14px;
-    width:52px;
-    height:52px;
-    padding:0;
-    border-radius:50%;
-    display:grid;
-    place-items:center;
-  }
-  .quote-trigger .quote-text{display:none}
-  .quote-trigger .quote-icon{font-size:1.05rem;line-height:1}
-  .quote-trigger .quote-badge{
-    position:absolute;
-    top:-5px;
-    right:-5px;
-    min-width:22px;
-    padding:2px 6px;
-  }
+  .card:hover,.price-card:hover{transform:none}
 }
 
 /* Viewport-contained navigation drawer — 2026-08-28 */

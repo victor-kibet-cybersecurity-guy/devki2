@@ -328,3 +328,16 @@ table{max-width:100%}
 @media (prefers-reduced-motion:reduce) and (max-width:1100px){
   .navlinks{transition-duration:.01ms!important}
 }
+
+/* Mobile navigation stacking repair — 2026-08-30 */
+@media (max-width:1100px){
+  body.nav-open .site-header{
+    z-index:310;
+    -webkit-backdrop-filter:none;
+    backdrop-filter:none;
+  }
+  .nav-backdrop{
+    -webkit-backdrop-filter:none;
+    backdrop-filter:none;
+  }
+}

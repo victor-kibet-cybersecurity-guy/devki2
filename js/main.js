@@ -199,7 +199,7 @@ const cfb=document.getElementById("countyFindBtn");cfb?.addEventListener("click"
 
 /* Dynamic Breadcrumb & JSON-LD BreadcrumbList Generator */
 (function generateDynamicBreadcrumbs() {
-  const BASE_URL = 'https://devkigroup.co.ke';
+  const BASE_URL = 'https://victor-kibet-cybersecurity-guy.github.io/devki2';
 
   function getRelativeRoot() {
     const path = window.location.pathname;

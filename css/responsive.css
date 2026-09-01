@@ -310,3 +310,24 @@ table{max-width:100%}
 
 /* Catalogue action hardening */
 @media (max-width:520px){.product-catalog-card .actions .btn{flex:1 1 100%;width:100%}.calculator-link-grid{grid-template-columns:1fr}}
+
+
+/* Safe-area and short-screen hardening — 2026-09-01 */
+@media (max-width:1100px){
+  .navlinks{
+    padding-bottom:calc(32px + env(safe-area-inset-bottom));
+  }
+}
+.wa-float{
+  right:calc(16px + env(safe-area-inset-right));
+  bottom:calc(18px + env(safe-area-inset-bottom));
+}
+.backtop{
+  left:calc(16px + env(safe-area-inset-left));
+  bottom:calc(18px + env(safe-area-inset-bottom));
+}
+@media (max-width:1100px) and (max-height:520px){
+  .navlinks{padding-top:14px;padding-bottom:calc(18px + env(safe-area-inset-bottom))}
+  .nav-drawer-header{padding-bottom:10px;margin-bottom:6px}
+  .navlinks a{padding-block:8px;min-height:42px}
+}

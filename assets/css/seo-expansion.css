@@ -177,3 +177,26 @@ table{max-width:100%}
     font-size:0;
   }
 }
+
+
+/* Safe-area and short-screen hardening — 2026-09-01 */
+.wa{
+  right:calc(18px + env(safe-area-inset-right));
+  bottom:calc(18px + env(safe-area-inset-bottom));
+}
+@media (max-width:1100px){
+  .nav.open nav{
+    max-height:calc(100vh - 88px);
+    max-height:calc(100dvh - 88px - env(safe-area-inset-bottom));
+  }
+}
+@media (max-width:1100px) and (max-height:520px){
+  .nav.open nav{padding:10px 14px}
+  .nav.open nav a{min-height:40px;padding-block:6px}
+}
+@media (max-width:470px){
+  .wa{
+    right:calc(12px + env(safe-area-inset-right));
+    bottom:calc(12px + env(safe-area-inset-bottom));
+  }
+}

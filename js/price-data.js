@@ -350,16 +350,5 @@ window.DEVKI_PRICE_CATALOG=[
     "unitLabel": "Per 25kg Bag",
     "price": 1450,
     "moq": "1 bag"
-  },
-  {
-    "id": "industrial-packaging",
-    "name": "Industrial Packaging",
-    "spec": "Confirm bag construction, print and order quantity",
-    "category": "packaging",
-    "categoryLabel": "Packaging",
-    "unit": "unit",
-    "unitLabel": "Per Unit",
-    "price": 50,
-    "moq": "Confirm MOQ"
   }
 ];

@@ -7,7 +7,7 @@
   'use strict';
 
   // Base URL for schema.org absolute items
-  const BASE_URL = 'https://devkigroup.co.ke';
+  const BASE_URL = 'https://victor-kibet-cybersecurity-guy.github.io/devki2';
 
   // Utility to determine relative root prefix (e.g., "", "../", "../../")
   function getRelativeRoot() {
@@ -90,52 +90,52 @@
     ],
 
     // Product pages
-    'devki-steel-bars-kenya.html': [
+    'products/devki-steel-bars.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
       { name: 'Steel Rebar', url: 'products.html#steel' },
       { name: 'Devki Steel Bars' }
     ],
-    'devki-d8-steel-bars.html': [
+    'products/d8-steel-bars.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
-      { name: 'Steel Rebar', url: 'devki-steel-bars-kenya.html' },
+      { name: 'Steel Rebar', url: 'products/devki-steel-bars.html' },
       { name: 'Devki D8 Steel Bar' }
     ],
-    'devki-d10-steel-bars.html': [
+    'products/d10-steel-bars.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
-      { name: 'Steel Rebar', url: 'devki-steel-bars-kenya.html' },
+      { name: 'Steel Rebar', url: 'products/devki-steel-bars.html' },
       { name: 'Devki D10 Steel Bar' }
     ],
-    'devki-d12-steel-bars.html': [
+    'products/d12-steel-bars.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
-      { name: 'Steel Rebar', url: 'devki-steel-bars-kenya.html' },
+      { name: 'Steel Rebar', url: 'products/devki-steel-bars.html' },
       { name: 'Devki D12 Steel Bar' }
     ],
-    'devki-d16-steel-bars.html': [
+    'products/d16-steel-bars.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
-      { name: 'Steel Rebar', url: 'devki-steel-bars-kenya.html' },
+      { name: 'Steel Rebar', url: 'products/devki-steel-bars.html' },
       { name: 'Devki D16 Steel Bar' }
     ],
-    'devki-d20-steel-bars.html': [
+    'products/d20-steel-bars.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
-      { name: 'Steel Rebar', url: 'devki-steel-bars-kenya.html' },
+      { name: 'Steel Rebar', url: 'products/devki-steel-bars.html' },
       { name: 'Devki D20 Steel Bar' }
     ],
-    'devki-steel-tubes-kenya.html': [
+    'products/devki-steel-tubes.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
       { name: 'Steel Tubes', url: 'products.html#tubes' },
       { name: 'Devki Steel Tubes' }
     ],
-    'devki-binding-wire-kenya.html': [
+    'products/binding-wire.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
-      { name: 'Steel Rebar', url: 'devki-steel-bars-kenya.html' },
+      { name: 'Steel Rebar', url: 'products/devki-steel-bars.html' },
       { name: 'Binding Wire' }
     ],
     'simba-cement-kenya.html': [
@@ -144,19 +144,19 @@
       { name: 'Cement', url: 'products.html#cement' },
       { name: 'Simba Cement' }
     ],
-    'simba-cement-32-5r.html': [
+    'products/simba-cement-32-5r.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
       { name: 'Cement', url: 'simba-cement-kenya.html' },
       { name: 'Simba Cement 32.5R' }
     ],
-    'simba-cement-42-5n.html': [
+    'products/simba-cement-42-5n.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
       { name: 'Cement', url: 'simba-cement-kenya.html' },
       { name: 'Simba Cement 42.5N' }
     ],
-    'rhino-cement-kenya.html': [
+    'products/rhino-cement.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
       { name: 'Cement', url: 'products.html#cement' },
@@ -168,13 +168,13 @@
       { name: 'Roofing Mabati', url: 'products.html#roofing' },
       { name: 'Maisha Mabati' }
     ],
-    'maisha-box-profile.html': [
+    'products/maisha-mabati-box-profile.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
       { name: 'Roofing Mabati', url: 'maisha-mabati-kenya.html' },
       { name: 'Box Profile Sheet' }
     ],
-    'maisha-corrugated-mabati.html': [
+    'products/maisha-mabati-corrugated.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
       { name: 'Roofing Mabati', url: 'maisha-mabati-kenya.html' },
@@ -186,7 +186,7 @@
       { name: 'Roofing Mabati', url: 'maisha-mabati-kenya.html' },
       { name: 'Versatile Tile' }
     ],
-    'mavuno-fertilizer-kenya.html': [
+    'products/mavuno-fertilizer.html': [
       { name: 'Home', url: 'index.html' },
       { name: 'Products', url: 'products.html' },
       { name: 'Fertilizer', url: 'products.html#fertilizer' },

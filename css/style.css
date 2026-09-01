@@ -76,3 +76,5 @@
 .price-summary .actions{margin-top:16px}
 
 .product-catalog-card[hidden],#masterPriceTable tr[hidden]{display:none!important}
+
+.product-catalog-card .actions .btn{flex:1 1 150px;min-width:0}.calculator-link-grid .btn{min-height:64px;text-align:center;white-space:normal}

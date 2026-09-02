@@ -200,3 +200,10 @@ table{max-width:100%}
     bottom:calc(12px + env(safe-area-inset-bottom));
   }
 }
+/* Skip below-the-fold layout work until content approaches the viewport. */
+@supports (content-visibility:auto){
+  main>section:not(.hero),main>.trust-strip,body>footer{
+    content-visibility:auto;
+    contain-intrinsic-size:auto 800px;
+  }
+}

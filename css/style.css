@@ -78,3 +78,10 @@
 .product-catalog-card[hidden],#masterPriceTable tr[hidden]{display:none!important}
 
 .product-catalog-card .actions .btn{flex:1 1 150px;min-width:0}.calculator-link-grid .btn{min-height:64px;text-align:center;white-space:normal}
+/* Skip below-the-fold layout work until content approaches the viewport. */
+@supports (content-visibility:auto){
+  main>section:not(.hero),main>.trust-strip,body>footer{
+    content-visibility:auto;
+    contain-intrinsic-size:auto 800px;
+  }
+}
